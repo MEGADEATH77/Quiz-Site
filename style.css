@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('quiz.jpg');
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+}
+
+.quiz-container{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.quiz-header{
+    padding: 35px;
+}
+
+h2{
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+.quiz-header ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.quiz-header ul li{
+    margin: 10px 0;
+}
+
+.quiz-header ul li label{
+    cursor: pointer;
+}
+
+.quiz-header ul li input{
+    cursor: pointer;
+}
+
+#submit{
+    background-color: #529fda;
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    padding: 15px;
+    border: none;
+    font-size: 1.1rem;
+    color: rgb(26, 25, 25);
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#submit:hover{
+    background-color: #0280e0;
+    color: rgb(255, 255, 255);
+}
+
+#submit:focus{
+    background-color: #0280e0;
+    color: rgb(255, 255, 255);
+}
